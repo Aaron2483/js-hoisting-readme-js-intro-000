@@ -15,11 +15,12 @@ function crazy() {
    console.log("hey!!!")
  }
 
- var sayMyName = function () {
-       console.log('Kirstin')
-        sayMyName = 'Kirstin'
- }
- var sayMy = function () {
-     console.log('Cricky')
-     sayMy = 'Cricky'
- }
+function sayMyName() {
+    console.log(name);
+    var name = "Cricky";
+}
+
+function sayMy() {
+  var name = "Kristin";
+  console.log(name);
+}
